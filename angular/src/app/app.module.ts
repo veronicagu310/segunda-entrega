@@ -16,6 +16,9 @@ import { environment } from 'src/environments/environment';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { ToastrModule } from 'ngx-toastr';
+import { CharactersComponent } from './components/characters/characters.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { ToastrModule } from 'ngx-toastr';
     IconDetailComponent,
     LoginComponent,
     DashboardComponent,
+    CharactersComponent,
+    FooterComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,
